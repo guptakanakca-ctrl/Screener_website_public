@@ -119,7 +119,7 @@
   <div class="earn-toolbar">
     <div class="news-tabs" id="earnTabs">
       <button class="news-tab active" data-when="upcoming" onclick="setWhen('upcoming')">Upcoming (9)</button>
-      <button class="news-tab" data-when="past" onclick="setWhen('past')">Past (1)</button>
+      <button class="news-tab" data-when="past" onclick="setWhen('past')">Past (0)</button>
       <button class="news-tab" data-when="all" onclick="setWhen('all')">All</button>
     </div>
     <div class="news-actions">
@@ -152,7 +152,7 @@
   </div>
 
   <div class="earn-empty" id="earnEmpty" hidden>No earnings match the current filter.</div>
-  <p class="muted small" style="margin-top:10px;">Generated 2026-06-13T17:02:57.532977+00:00 · 1 past · 9 upcoming</p>
+  <p class="muted small" style="margin-top:10px;">Generated 2026-06-14T02:36:53.191364+00:00 · 0 past · 9 upcoming</p>
 </section>
 
 
@@ -168,7 +168,7 @@
 
 <footer class="footer">
   <div class="wrap">
-    <div>US-equity explorer · Generated 2026-06-13 15:01 PDT</div>
+    <div>US-equity explorer · Generated 2026-06-13 21:40 PDT</div>
     <div class="muted">For informational use only - not investment advice.</div>
   </div>
 </footer>
@@ -417,7 +417,7 @@ window.addEventListener('resize', initStickyScrollbars);
 </script>
 
 <script>
-const EARN_PAST = [{"ticker": "MDT", "name": "Medtronic plc", "sector": "Healthcare", "market_cap": 104854880256, "report_date": "2026-05-20T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "past", "indexes": ["SPX"], "tv_symbol": "NYSE:MDT"}];
+const EARN_PAST = [];
 const EARN_UPCOMING = [{"ticker": "BAC", "name": "Bank of America Corporation", "sector": "Financial Services", "market_cap": 382009507840, "report_date": "2026-07-14T12:30:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:BAC"}, {"ticker": "JPM", "name": "JPMorgan Chase & Co.", "sector": "Financial Services", "market_cap": 836998922240, "report_date": "2026-07-14T12:30:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:JPM"}, {"ticker": "MTB", "name": "M&T Bank Corporation", "sector": "Financial Services", "market_cap": 32575238144, "report_date": "2026-07-15T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:MTB"}, {"ticker": "USB", "name": "U.S. Bancorp", "sector": "Financial Services", "market_cap": 86382493696, "report_date": "2026-07-16T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:USB"}, {"ticker": "CFG", "name": "Citizens Financial Group, Inc.", "sector": "Financial Services", "market_cap": 27055986688, "report_date": "2026-07-16T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:CFG"}, {"ticker": "TFC", "name": "Truist Financial Corporation", "sector": "Financial Services", "market_cap": 61297262592, "report_date": "2026-07-17T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:TFC"}, {"ticker": "KEY", "name": "KeyCorp", "sector": "Financial Services", "market_cap": 23592751104, "report_date": "2026-07-21T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:KEY"}, {"ticker": "FITB", "name": "Fifth Third Bancorp", "sector": "Financial Services", "market_cap": 47137263616, "report_date": "2026-07-23T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NASDAQ:FITB"}, {"ticker": "HBAN", "name": "Huntington Bancshares Incorporated", "sector": "Financial Services", "market_cap": 33488199680, "report_date": "2026-07-23T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NASDAQ:HBAN"}];
 const REGION_CCY = "$";
 const REGION_ID  = "usa";
