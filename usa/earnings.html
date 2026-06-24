@@ -118,7 +118,7 @@
 <section class="card section">
   <div class="earn-toolbar">
     <div class="news-tabs" id="earnTabs">
-      <button class="news-tab active" data-when="upcoming" onclick="setWhen('upcoming')">Upcoming (9)</button>
+      <button class="news-tab active" data-when="upcoming" onclick="setWhen('upcoming')">Upcoming (10)</button>
       <button class="news-tab" data-when="past" onclick="setWhen('past')">Past (0)</button>
       <button class="news-tab" data-when="all" onclick="setWhen('all')">All</button>
     </div>
@@ -152,7 +152,7 @@
   </div>
 
   <div class="earn-empty" id="earnEmpty" hidden>No earnings match the current filter.</div>
-  <p class="muted small" style="margin-top:10px;">Generated 2026-06-23T23:52:15.170334+00:00 · 0 past · 9 upcoming</p>
+  <p class="muted small" style="margin-top:10px;">Generated 2026-06-24T05:55:28.259686+00:00 · 0 past · 10 upcoming</p>
 </section>
 
 
@@ -168,7 +168,7 @@
 
 <footer class="footer">
   <div class="wrap">
-    <div>US-equity explorer · Generated 2026-06-23 22:07 PDT</div>
+    <div>US-equity explorer · Generated 2026-06-23 22:57 PDT</div>
     <div class="muted">For informational use only - not investment advice.</div>
   </div>
 </footer>
@@ -418,7 +418,7 @@ window.addEventListener('resize', initStickyScrollbars);
 
 <script>
 const EARN_PAST = [];
-const EARN_UPCOMING = [{"ticker": "BAC", "name": "Bank of America Corporation", "sector": "Financial Services", "market_cap": 382009507840, "report_date": "2026-07-14T12:30:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:BAC"}, {"ticker": "JPM", "name": "JPMorgan Chase & Co.", "sector": "Financial Services", "market_cap": 836998922240, "report_date": "2026-07-14T12:30:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:JPM"}, {"ticker": "MTB", "name": "M&T Bank Corporation", "sector": "Financial Services", "market_cap": 32575238144, "report_date": "2026-07-15T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:MTB"}, {"ticker": "CFG", "name": "Citizens Financial Group, Inc.", "sector": "Financial Services", "market_cap": 27055986688, "report_date": "2026-07-16T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:CFG"}, {"ticker": "KEY", "name": "KeyCorp", "sector": "Financial Services", "market_cap": 23592751104, "report_date": "2026-07-21T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:KEY"}, {"ticker": "FITB", "name": "Fifth Third Bancorp", "sector": "Financial Services", "market_cap": 47137263616, "report_date": "2026-07-23T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NASDAQ:FITB"}, {"ticker": "HBAN", "name": "Huntington Bancshares Incorporated", "sector": "Financial Services", "market_cap": 33488199680, "report_date": "2026-07-23T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NASDAQ:HBAN"}, {"ticker": "BMY", "name": "Bristol-Myers Squibb Company", "sector": "Healthcare", "market_cap": 116949426176, "report_date": "2026-07-30T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:BMY"}, {"ticker": "MRK", "name": "Merck & Co., Inc.", "sector": "Healthcare", "market_cap": 298330095616, "report_date": "2026-08-04T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:MRK"}];
+const EARN_UPCOMING = [{"ticker": "BAC", "name": "Bank of America Corporation", "sector": "Financial Services", "market_cap": 382009507840, "report_date": "2026-07-14T12:30:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:BAC"}, {"ticker": "JPM", "name": "JPMorgan Chase & Co.", "sector": "Financial Services", "market_cap": 836998922240, "report_date": "2026-07-14T12:30:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:JPM"}, {"ticker": "MTB", "name": "M&T Bank Corporation", "sector": "Financial Services", "market_cap": 32575238144, "report_date": "2026-07-15T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:MTB"}, {"ticker": "CFG", "name": "Citizens Financial Group, Inc.", "sector": "Financial Services", "market_cap": 27055986688, "report_date": "2026-07-16T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:CFG"}, {"ticker": "TFC", "name": "Truist Financial Corporation", "sector": "Financial Services", "market_cap": 61297262592, "report_date": "2026-07-17T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:TFC"}, {"ticker": "KEY", "name": "KeyCorp", "sector": "Financial Services", "market_cap": 23592751104, "report_date": "2026-07-21T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:KEY"}, {"ticker": "FITB", "name": "Fifth Third Bancorp", "sector": "Financial Services", "market_cap": 47137263616, "report_date": "2026-07-23T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NASDAQ:FITB"}, {"ticker": "HBAN", "name": "Huntington Bancshares Incorporated", "sector": "Financial Services", "market_cap": 33488199680, "report_date": "2026-07-23T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NASDAQ:HBAN"}, {"ticker": "BMY", "name": "Bristol-Myers Squibb Company", "sector": "Healthcare", "market_cap": 116949426176, "report_date": "2026-07-30T12:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:BMY"}, {"ticker": "MRK", "name": "Merck & Co., Inc.", "sector": "Healthcare", "market_cap": 298330095616, "report_date": "2026-08-04T13:00:00+00:00", "eps_estimate": null, "eps_actual": null, "surprise_pct": null, "when": "upcoming", "indexes": ["SPX"], "tv_symbol": "NYSE:MRK"}];
 const REGION_CCY = "$";
 const REGION_ID  = "usa";
 const QUOTE_URL_TEMPLATE = "https://www.robinhood.com/stocks/{base}";
